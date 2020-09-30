@@ -8,12 +8,20 @@ function addTodo(node) {
 }
 
 function createTodo(todoText) {
+
+    // create a new paragraph element
     let p = document.createElement('p')
     p.innerText = todoText
     
     p.addEventListener('click', function(e){
+        
+        // Find the index of the selceted element, and from that postion remove 1 element.
         todoArrayList.splice(todoArrayList.indexOf(this.innerText),1)
+
+        // Remove the selected element from the DOM
         this.remove()
+
+        // Reset the array in the localstorage
         setArrayToLocalStorage()
     })
     return p
@@ -24,11 +32,13 @@ function addToArray(todoText) {
 }
 
 function setArrayToLocalStorage(){
+    // store the array into the localstorage
     window.localStorage.setItem('todos', todoArrayList)
 }
 
-document.getElementById('txtToDo').onkeyup = function (e) {
-    if (e.code == 'Enter') { //When the use press ENTER the todo will be added into the list
+todo.onkeyup = function (e) {
+    //When the use press ENTER key the todo will be added into the list
+    if (e.code == 'Enter') { 
         addTodo(createTodo(todo.value))
         addToArray(todo.value)
         todo.value = ''
@@ -37,10 +47,13 @@ document.getElementById('txtToDo').onkeyup = function (e) {
 }
 
 window.onload = function (e) {
-    // when the page loads check if todo list exist in the localstorage
+    // when the page loads check if todo list array exist in the localstorage
     // if yes then load the data into the array
     if (window.localStorage.getItem('todos') != null) {
+        // data is stired in the lcoalstorage as string
+        // array elemnets are stored as string and ere seperated by ,
         todoArrayList = window.localStorage.getItem('todos').split(',')
+        // iterate over each element in the array and add the element into the todo list
         todoArrayList.forEach(function(todoItem) {
             addTodo(createTodo(todoItem))
         })
