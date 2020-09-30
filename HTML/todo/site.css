@@ -1,0 +1,40 @@
+html{
+    font-family: 'Delius', cursive;
+}
+body{
+    /* background-color: #ffffff; */
+}
+.container{
+    width: 90%;
+    margin: auto;
+    /* background-color: #003399; */
+    /* color: #ffffff; */
+}
+.header{
+
+}
+.todo > p{
+    width: 100%;
+    font-size: 14pt;
+    
+}
+.todo > p:hover{
+    /* border: 1px solid black; */
+    font-weight: bold;
+}
+
+.lbl{
+    font-size: 14pt;
+    font-weight: bold;
+}
+.text{
+    width: 98%;
+    height: 30px;
+    font-size: 14pt;
+}
+.p-top-1{
+    padding-top: 1em;
+}
+.clear{
+    clear:both;
+}
