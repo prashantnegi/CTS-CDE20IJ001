@@ -2,4 +2,4 @@
 
 ## HTML
 
-This directory contains all HTML demos.
+This directory contains all HTML demos

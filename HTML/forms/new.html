@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/site.css">
+    <title>Subscrictions - Create New Subscriction</title>
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="header">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="new.html">New</a></li>
+                <li><a href="edit.html">Edit</a></li>
+            </ul>
+        </div>
+
+        <div class="row m-top-3 w-60">
+            <form class="contact" action="">
+                <div class="column left">
+                    <div class="input-group">
+                        <h2>Create new subscription</h2>
+
+                        <label for="name">First Name</label>
+                        <input type="text" name="fname" id="fname" class="text-input">
+
+                        <label for="lname">Last Name</label>
+                        <input type="text" name="lname" id="lname" class="text-input">
+
+                        <label for="email">Email</label>
+                        <input type="text" name="email" id="email" class="text-input">
+
+                        <label for="phone">Phone #</label>
+                        <input type="text" name="phone" id="phone" class="text-input">
+
+                        <label for="preference">Preferences</label>
+                        <input type="checkbox" name="preference" id="sports" class="select-input" value="Sports">
+                        <span>Sports</span>
+
+                        <input type="checkbox" name="preference" id="food" class="select-input" value="Food">
+                        <span>Food</span>
+
+                        <input type="checkbox" name="preference" id="travel" class="select-input" value="Travel">
+                        <span>Travel</span>
+
+                        <input type="checkbox" name="preference" id="fashion" class="select-input" value="Fashion">
+                        <span>Fashion</span>
+
+                        <input type="checkbox" name="preference" id="technology" class="select-input" value="Technology">
+                        <span>Technology</span>
+
+                        <input type="checkbox" name="preference" id="politics" class="select-input" value="Politics">
+                        <span>Politics</span>
+
+                        <div class="clear"></div>
+                        <button type="button" class="btn m-top-1" id="createSubscriptionBtn" 
+                            onclick="createSubscription()">Create Subscription</button>
+                    </div>
+
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <script src="js/script.js"></script>
+   
+</body>
+
+</html>

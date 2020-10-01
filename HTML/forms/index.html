@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/site.css">
+    <title>Subscriptions - Home Page</title>
+</head>
+
+<body>
+   
+    <div class="container">
+        <div class="header">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="new.html">New</a></li>
+                <li><a href="edit.html">Edit</a></li>
+            </ul>
+        </div>
+
+        <div class="row m-top-3 w-80">
+            
+            <div class="clear"></div>
+            <div class="column">
+                <h1>All subscriptions</h1>
+                <table id="tblSubscriptions">
+                    <thead>
+                        <tr>
+                            <th scope="col">#</th>
+                            <th scope="col">Name</th>
+                            <th scope="col">Email</th>
+                            <th scope="col">Phone #</th>
+                            <th scope="col">Subscriptions</th>
+                        </tr>
+                    </thead>
+                    
+                </table>
+            </div>
+            
+        </div>
+    </div>
+</body>
+
+<script src="js/script.js"></script>
+<script>
+    document.addEventListener('readystatechange', event => {
+        if (event.target.readyState === "complete") {
+            loadSubscriptionListIntoTable()
+        }
+    })
+</script>
+</html>
