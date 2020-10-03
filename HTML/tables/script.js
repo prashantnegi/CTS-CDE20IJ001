@@ -1,5 +1,5 @@
 
-var data = [
+var users = [
     {
         id: "1",
         name: "Ashish",
@@ -23,15 +23,19 @@ var data = [
 
 ]// object array
 
+// console.log(data.findIndex(d => d.id === '4'))
+
 document.getElementById('loadData').onclick = function (e) {
 
     let table = document.createElement('table')
+
     table.classList.add('tbl')
     let thead = table.createTHead()
    
     let tbody = table.createTBody()
 
     let headerRow = thead.insertRow(0)
+
     let idCell = headerRow.insertCell()
     let nameCell = headerRow.insertCell()
     let emailCell = headerRow.insertCell()
@@ -40,17 +44,34 @@ document.getElementById('loadData').onclick = function (e) {
     nameCell.innerText = "NAME"
     emailCell.innerText = "Email"
 
-    data.forEach(function (user) {
+    users.forEach(function (user, userIndex) {
         let dataRow = tbody.insertRow()
 
         let idRowCell = dataRow.insertCell()
         let nameRowCell = dataRow.insertCell()
         let emailRowCell = dataRow.insertCell()
+        let editCell = dataRow.insertCell();
 
         idRowCell.innerText = user.id
         nameRowCell.innerText = user.name
         emailRowCell.innerText = user.email
+
+        let button = document.createElement('button')
+        button.innerText = 'Edit'
+        button.setAttribute('data-userIndex', userIndex)
+        button.onclick = editUser
+
+        // bind the click event handler and pass the index as parameter
+        editCell.appendChild(button)
+
+        // console.log(index)
     })
 
     document.getElementById('tableContainer').appendChild(table)
+}
+
+function editUser(){
+    console.log(users[this.getAttribute('data-userIndex')])
+
+    
 }
