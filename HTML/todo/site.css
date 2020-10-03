@@ -1,40 +1,45 @@
-html{
+html {
     font-family: 'Delius', cursive;
 }
-body{
+
+body {
     /* background-color: #ffffff; */
 }
-.container{
+
+.container {
     width: 90%;
     margin: auto;
     /* background-color: #003399; */
     /* color: #ffffff; */
 }
-.header{
 
-}
-.todo > p{
+.header {}
+
+.todo>p {
     width: 100%;
     font-size: 14pt;
-    
 }
-.todo > p:hover{
+
+.todo>p:hover {
     /* border: 1px solid black; */
     font-weight: bold;
 }
 
-.lbl{
+.lbl {
     font-size: 14pt;
     font-weight: bold;
 }
-.text{
+
+.text {
     width: 98%;
     height: 30px;
     font-size: 14pt;
 }
-.p-top-1{
+
+.p-top-1 {
     padding-top: 1em;
 }
-.clear{
-    clear:both;
+
+.clear {
+    clear: both;
 }

@@ -9,7 +9,7 @@
 }
 
 :root {
-    --main-bg-color: DodgerBlue;
+    --main-bg-color:dodgerblue;
     --header-bg-color: #025ab0;
     --secondary-bg-color: #f1f1f1;
 }
@@ -42,7 +42,6 @@ form {
     flex-wrap: wrap;
     margin: auto;
     background-color: var(--secondary-bg-color);
-    ;
     padding: 1em;
     border-radius: 5px;
 }

@@ -26,7 +26,15 @@ function loadSubscriptionListIntoTable() {
 
     console.log('inside loadSubscriptionListIntoTable')
     console.log(this.subscriptionsList)
+    
+
     let tblSubscriptions = document.getElementById('tblSubscriptions')
+
+    tblSubscriptions.className = 'class-3'
+    
+    tblSubscriptions.classList.add('class-1')
+    tblSubscriptions.classList.add('class-2')
+    
     let tbody = tblSubscriptions.createTBody()
     
     getSubscriptionsList().forEach(subscriptionObject => {
