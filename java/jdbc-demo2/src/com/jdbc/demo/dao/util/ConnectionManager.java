@@ -7,6 +7,11 @@ import java.sql.DriverManager;
 import java.sql.SQLException;
 import java.util.Properties;
 
+/***
+ * This class is deprecated as this is not a thread safe implementation.
+ * Use the DataSourceManager to get new database connection as it implements a thread safe connection pool
+ */
+@Deprecated
 public final class ConnectionManager {
 
     private static Connection connection = null;
@@ -18,16 +23,6 @@ public final class ConnectionManager {
             FileInputStream in = new FileInputStream("database.properties");
             Properties dbProperties = new Properties();
             dbProperties.load(in);
-//            System.err.println(dbProperties.getProperty("jdbc.mysql.driver_class"));
-//            try {
-//				Class.forName(dbProperties.getProperty("jdbc.mysql.driver_class")).newInstance();
-//			} catch (InstantiationException e) {
-//				// TODO Auto-generated catch block
-//				e.printStackTrace();
-//			} catch (IllegalAccessException e) {
-//				// TODO Auto-generated catch block
-//				e.printStackTrace();
-//			}
             if (connection == null) {
 
                 connection = DriverManager.getConnection(

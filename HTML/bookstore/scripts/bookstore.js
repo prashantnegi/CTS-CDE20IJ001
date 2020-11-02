@@ -9,9 +9,8 @@ var bookList = []
 
 document.addEventListener('DOMContentLoaded', loadData)
 
-window.addEventListener('beforeunload',  (e) => {
+window.addEventListener('beforeunload', (e) => {
     window.localStorage.clear()
-    console.log('clear...')
 })
 
 function Book(image, title, author, price, description) {
@@ -113,6 +112,7 @@ function prepareGrid() {
         cartButton.innerText = 'Add To Cart'
         cartButton.setAttribute('type', 'button')
 
+
         cardInfoDiv2.appendChild(cartButton)
 
         cardInfo.appendChild(cardInfoDiv1)
@@ -121,6 +121,7 @@ function prepareGrid() {
         card.appendChild(cardContent)
         card.appendChild(cardInfo)
 
+        // console.warn(card)
         container.appendChild(card)
 
     })

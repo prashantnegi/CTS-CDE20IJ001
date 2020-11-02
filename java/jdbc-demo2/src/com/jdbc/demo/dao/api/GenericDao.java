@@ -12,6 +12,8 @@ public interface GenericDao<T> {
 
     int save(T t) throws SQLException;
 
+    int[] saveBatch(List<T> t) throws SQLException;
+
     int update(T t, String[] params) throws SQLException;
 
     int delete(T t);

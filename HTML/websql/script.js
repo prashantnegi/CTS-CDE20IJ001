@@ -1,5 +1,4 @@
 
-
 var db = openDatabase('contactdb', '1.0', 'Contact Information', 3 * 1024 * 1024)
 
 
@@ -40,3 +39,14 @@ function insertRow(name, email) {
     cell1.innerHTML = name
     cell2.innerHTML = email
 }
+
+
+function square(num){
+    return num * num;
+}
+
+function print(num, callback){
+    return callback(num)
+}
+
+console.log(print(5, square))

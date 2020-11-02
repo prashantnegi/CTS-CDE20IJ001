@@ -1,0 +1,29 @@
+GET http://localhost:8080/hello
+
+###
+
+GET http://localhost:8080/hello/ashish
+
+###
+
+GET http://localhost:8080/greet?name=ashish
+###
+
+POST http://localhost:8080/users
+Content-Type: application/json
+
+{
+    "id":"3",
+    "userName":"akhil",
+    "password":"password"
+}
+###
+
+GET  http://localhost:8080/users
+####
+
+POST http://localhost:8080/trainees
+Content-Type: application/json
+
+{"firstName":"ashish","lastName":"s","year":"2020"}
+###
