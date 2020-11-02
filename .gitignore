@@ -1,1 +1,4 @@
+.vscode
 /java/jdbc-demo2/out/
+*.class
+truyum
