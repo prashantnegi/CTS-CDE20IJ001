@@ -1,0 +1,67 @@
+Rules for naming identifiers
+
+1. No keywords
+2. No special chars other than _ $
+3. Cannot start with number 
+4. Case senitive
+
+Conventions
+
+1. Class name: Upper camelcase
+
+    TraineeDetails
+    TraineePerformanceData
+
+
+2. Variables/functions: Lower camel case
+
+    createTrainee()
+
+    assignNewTrainer()
+
+    traineeName
+
+    traineeEmail
+
+3. Constants: Fully upper case
+
+    MAX_XP
+    
+
+Java functions 
+
+<acess-specifier> <access-modifier> <return-type> <function-name>(<parameters>){
+
+}
+
+access sepecifiers
+    public/private/protected/friendly
+
+access modifiers
+    static/abstract/final
+
+return types
+    void/data types
+
+parameters
+    
+
+Creating objects
+
+new keywords
+
+ClassName objectName = new ClassName()
+
+Compiling
+
+javac FileName.javac
+
+Java code to Byte code
+
+Function Overloading
+
+    Multiple methods with same name with different function signature
+
+    Datatype of the parameters
+    Number of parameters
+    Order of parameters
