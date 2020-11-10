@@ -1,6 +1,7 @@
 package com.jdbc.demo.dao.api;
 
 import com.jdbc.demo.dao.model.Trainee;
+import com.jdbc.demo.dao.util.ConnectionManager;
 import com.jdbc.demo.dao.util.DataSourceManager;
 
 import java.sql.*;

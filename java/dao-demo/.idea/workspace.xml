@@ -23,19 +23,58 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="369cfd80-a6a6-4182-9891-ed07027fe3e5" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/aws.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dao-demo.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/easyskiilup/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/easyskiilup/dao/ConnectionManager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../HTML/bookstore/grid.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../HTML/bookstore/grid.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../HTML/bookstore/scripts/bookstore.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../HTML/bookstore/scripts/bookstore.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../HTML/bookstore/styles/grid.css" beforeDir="false" afterPath="$PROJECT_DIR$/../../HTML/bookstore/styles/grid.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../HTML/websql/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../HTML/websql/script.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../app-demo/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../app-demo/.idea/aws.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../app-demo/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../app-demo/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../app-demo/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../app-demo/app-demo.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../app-demo/src/com/easykillup/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../app-demo/src/com/easykillup/dao/GenericDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../app-demo/src/com/easykillup/dao/impl/StudentDaoMysql.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../app-demo/src/com/easykillup/dao/impl/StudentDaoOracle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../app-demo/src/com/easykillup/model/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../app-demo/src/com/easykillup/security/AuthenticationImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../app-demo/src/com/easykillup/security/Authenticaton.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../app-demo/src/com/easykillup/services/GenericService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../app-demo/src/com/easykillup/services/StudentService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo-localization/src/com/demo/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo-localization/src/messages.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo-localization/src/messages_en_US.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo-localization/src/messages_fr_FR.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/easyskiilup/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/easyskiilup/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/easyskiilup/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/easyskiilup/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/easyskiilup/dao/ConnectionManager.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/easyskiilup/dao/ConnectionManager.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/dao-demo-1.0-SNAPSHOT-shaded.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/dao-demo-1.0-SNAPSHOT-shaded.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/dao-demo-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/dao-demo-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-archiver/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/original-dao-demo-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/original-dao-demo-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jdbc-demo2/.project" beforeDir="false" afterPath="$PROJECT_DIR$/../jdbc-demo2/.project" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jdbc-demo2/out/production/jdbc-demo2/.classpath" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jdbc-demo2/out/production/jdbc-demo2/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jdbc-demo2/out/production/jdbc-demo2/.idea/aws.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jdbc-demo2/out/production/jdbc-demo2/.idea/libraries/mysql_connector_java_8_0_22.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jdbc-demo2/out/production/jdbc-demo2/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jdbc-demo2/out/production/jdbc-demo2/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jdbc-demo2/out/production/jdbc-demo2/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jdbc-demo2/out/production/jdbc-demo2/.project" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jdbc-demo2/out/production/jdbc-demo2/com/jdbc/demo/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/../jdbc-demo2/out/production/jdbc-demo2/com/jdbc/demo/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jdbc-demo2/out/production/jdbc-demo2/com/jdbc/demo/dao/api/GenericDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/../jdbc-demo2/out/production/jdbc-demo2/com/jdbc/demo/dao/api/GenericDao.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jdbc-demo2/out/production/jdbc-demo2/com/jdbc/demo/dao/api/TraineeDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/../jdbc-demo2/out/production/jdbc-demo2/com/jdbc/demo/dao/api/TraineeDao.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jdbc-demo2/out/production/jdbc-demo2/com/jdbc/demo/dao/model/Trainee.class" beforeDir="false" afterPath="$PROJECT_DIR$/../jdbc-demo2/out/production/jdbc-demo2/com/jdbc/demo/dao/model/Trainee.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jdbc-demo2/out/production/jdbc-demo2/com/jdbc/demo/dao/util/ConnectionManager.class" beforeDir="false" afterPath="$PROJECT_DIR$/../jdbc-demo2/out/production/jdbc-demo2/com/jdbc/demo/dao/util/ConnectionManager.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jdbc-demo2/out/production/jdbc-demo2/database.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jdbc-demo2/out/production/jdbc-demo2/jdbc-demo2.eml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jdbc-demo2/out/production/jdbc-demo2/jdbc-demo2.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jdbc-demo2/out/production/jdbc-demo2/jdbc-demo2.userlibraries" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jdbc-demo2/out/production/jdbc-demo2/src/com/jdbc/demo/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jdbc-demo2/out/production/jdbc-demo2/src/com/jdbc/demo/dao/api/GenericDao.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jdbc-demo2/out/production/jdbc-demo2/src/com/jdbc/demo/dao/api/TraineeDao.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jdbc-demo2/out/production/jdbc-demo2/src/com/jdbc/demo/dao/model/Trainee.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jdbc-demo2/out/production/jdbc-demo2/src/com/jdbc/demo/dao/util/ConnectionManager.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jdbc-demo2/src/com/jdbc/demo/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../jdbc-demo2/src/com/jdbc/demo/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jdbc-demo2/src/com/jdbc/demo/dao/api/TraineeDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/../jdbc-demo2/src/com/jdbc/demo/dao/api/TraineeDao.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -135,9 +174,9 @@
       <screen x="0" y="0" width="1676" height="913" />
     </state>
     <state x="232" y="15" key="SettingsEditor/0.0.1676.913@0.0.1676.913" timestamp="1604230177791" />
-    <state x="409" y="50" key="new project wizard" timestamp="1604245670822">
+    <state x="409" y="0" key="new project wizard" timestamp="1604392139831">
       <screen x="0" y="0" width="1676" height="913" />
     </state>
-    <state x="409" y="50" key="new project wizard/0.0.1676.913@0.0.1676.913" timestamp="1604245670822" />
+    <state x="409" y="0" key="new project wizard/0.0.1676.913@0.0.1676.913" timestamp="1604392139831" />
   </component>
 </project>
