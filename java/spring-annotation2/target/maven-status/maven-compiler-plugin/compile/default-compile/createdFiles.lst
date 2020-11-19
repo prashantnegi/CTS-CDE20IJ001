@@ -1,0 +1,12 @@
+com\cts\training\Drawing.class
+com\cts\training\aspects\LoogingAspect.class
+com\cts\training\model\Student.class
+com\cts\training\Shape.class
+com\cts\training\Color.class
+com\cts\training\dao\StudentService.class
+com\cts\training\Square.class
+com\cts\training\Circle.class
+com\cts\training\Paint.class
+com\cts\training\dao\StudentServiceImpl.class
+com\cts\training\AppConfiguration.class
+com\cts\training\Application.class

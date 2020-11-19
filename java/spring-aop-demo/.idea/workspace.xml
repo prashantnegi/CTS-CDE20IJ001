@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="657c1497-488f-4623-8707-8664c087fbfb" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../dependency-injection/dependency-reduced-pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-annotation/.idea/aws.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-annotation/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-annotation/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-annotation/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-annotation/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-annotation/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-annotation/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-annotation/spring-annotation.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-annotation/src/main/java/org/example/App.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-annotation/src/main/java/org/example/Circle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-annotation/src/main/java/org/example/Color.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-annotation/src/main/java/org/example/Config.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-annotation/src/main/java/org/example/Drawing.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-annotation/src/main/java/org/example/Shape.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-annotation/src/main/java/org/example/Square.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-annotation/src/test/java/org/example/AppTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-annotation2/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-annotation2/.idea/aws.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-annotation2/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-annotation2/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-annotation2/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-annotation2/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-annotation2/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-annotation2/dependency-reduced-pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-annotation2/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-annotation2/spring-annotation2.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-annotation2/src/main/java/com/cts/training/AppConfiguration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-annotation2/src/main/java/com/cts/training/Application.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-annotation2/src/main/java/com/cts/training/Brush.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-annotation2/src/main/java/com/cts/training/Circle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-annotation2/src/main/java/com/cts/training/Color.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-annotation2/src/main/java/com/cts/training/Drawing.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-annotation2/src/main/java/com/cts/training/Paint.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-annotation2/src/main/java/com/cts/training/Shape.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-annotation2/src/main/java/com/cts/training/Square.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-annotation2/src/main/java/com/cts/training/StudentController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-annotation2/src/main/java/com/cts/training/aspects/LoogingAspect.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-annotation2/src/main/java/com/cts/training/dao/StudentService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-annotation2/src/main/java/com/cts/training/dao/StudentServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-annotation2/src/main/java/com/cts/training/model/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-annotation2/src/main/resources/strings.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/aws.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dependency-reduced-pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-aop-demo.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/cts/training/AppConfiguration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/cts/training/Application.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/cts/training/aspect/LogAspect.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/cts/training/service/CustomerService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/cts/training/service/CustomerServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-jdbc-demo/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-jdbc-demo/.idea/aws.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-jdbc-demo/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-jdbc-demo/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-jdbc-demo/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-jdbc-demo/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-jdbc-demo/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-jdbc-demo/dependency-reduced-pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-jdbc-demo/spring-jdbc-demo.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-jdbc-demo/src/main/java/com/cts/training/AppConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-jdbc-demo/src/main/java/com/cts/training/Application.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-jdbc-demo/src/main/java/com/cts/training/aspects/LoggerAspect.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-jdbc-demo/src/main/java/com/cts/training/dao/CustomerDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-jdbc-demo/src/main/java/com/cts/training/dao/CustomerDaoImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-jdbc-demo/src/main/java/com/cts/training/model/Customer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-jdbc-demo/src/main/java/com/cts/training/service/CustomerService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-jdbc-demo/src/main/java/com/cts/training/service/CustomerServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-jdbc-demo/src/main/resources/logback.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dependency-injection/.classpath" beforeDir="false" afterPath="$PROJECT_DIR$/../dependency-injection/.classpath" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dependency-injection/.settings/org.eclipse.jdt.core.prefs" beforeDir="false" afterPath="$PROJECT_DIR$/../dependency-injection/.settings/org.eclipse.jdt.core.prefs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dependency-injection/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../dependency-injection/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dependency-injection/src/main/java/com/cts/Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/../dependency-injection/src/main/java/com/cts/Application.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dependency-injection/src/main/resources/beans.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../dependency-injection/src/main/resources/beans.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dependency-injection/src/main/resources/colors.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../dependency-injection/src/main/resources/colors.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jdbc-demo2/out/production/jdbc-demo2/com/jdbc/demo/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/../jdbc-demo2/out/production/jdbc-demo2/com/jdbc/demo/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jdbc-demo2/out/production/jdbc-demo2/com/jdbc/demo/dao/api/GenericDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/../jdbc-demo2/out/production/jdbc-demo2/com/jdbc/demo/dao/api/GenericDao.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jdbc-demo2/out/production/jdbc-demo2/com/jdbc/demo/dao/api/TraineeDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/../jdbc-demo2/out/production/jdbc-demo2/com/jdbc/demo/dao/api/TraineeDao.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jdbc-demo2/out/production/jdbc-demo2/com/jdbc/demo/dao/model/Trainee.class" beforeDir="false" afterPath="$PROJECT_DIR$/../jdbc-demo2/out/production/jdbc-demo2/com/jdbc/demo/dao/model/Trainee.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jdbc-demo2/out/production/jdbc-demo2/com/jdbc/demo/dao/util/ConnectionManager.class" beforeDir="false" afterPath="$PROJECT_DIR$/../jdbc-demo2/out/production/jdbc-demo2/com/jdbc/demo/dao/util/ConnectionManager.class" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2020.2.3\plugins\maven\lib\maven3" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1kSMtH26ZP1LQg8PrqMjMcMy9mn" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+  </component>
+  <component name="RunManager">
+    <configuration name="Application" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.cts.training.Application" />
+      <module name="spring-aop-demo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.cts.training.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Application" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="657c1497-488f-4623-8707-8664c087fbfb" name="Default Changelist" comment="" />
+      <created>1605689752207</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1605689752207</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="595" y="102" key="#com.intellij.ide.util.MemberChooser" timestamp="1605696548861">
+      <screen x="0" y="0" width="1676" height="913" />
+    </state>
+    <state x="595" y="102" key="#com.intellij.ide.util.MemberChooser/0.0.1676.913@0.0.1676.913" timestamp="1605696548861" />
+    <state width="1626" height="319" key="GridCell.Tab.0.bottom" timestamp="1605697853703">
+      <screen x="0" y="0" width="1676" height="913" />
+    </state>
+    <state width="1626" height="319" key="GridCell.Tab.0.bottom/0.0.1676.913@0.0.1676.913" timestamp="1605697853703" />
+    <state width="1626" height="319" key="GridCell.Tab.0.center" timestamp="1605697853702">
+      <screen x="0" y="0" width="1676" height="913" />
+    </state>
+    <state width="1626" height="319" key="GridCell.Tab.0.center/0.0.1676.913@0.0.1676.913" timestamp="1605697853702" />
+    <state width="1626" height="319" key="GridCell.Tab.0.left" timestamp="1605697853702">
+      <screen x="0" y="0" width="1676" height="913" />
+    </state>
+    <state width="1626" height="319" key="GridCell.Tab.0.left/0.0.1676.913@0.0.1676.913" timestamp="1605697853702" />
+    <state width="1626" height="319" key="GridCell.Tab.0.right" timestamp="1605697853702">
+      <screen x="0" y="0" width="1676" height="913" />
+    </state>
+    <state width="1626" height="319" key="GridCell.Tab.0.right/0.0.1676.913@0.0.1676.913" timestamp="1605697853702" />
+    <state x="252" y="33" key="Maven.ArtifactSearchDialog" timestamp="1605693261558">
+      <screen x="0" y="0" width="1676" height="913" />
+    </state>
+    <state x="252" y="33" key="Maven.ArtifactSearchDialog/0.0.1676.913@0.0.1676.913" timestamp="1605693261558" />
+    <state x="409" y="50" key="new project wizard" timestamp="1605757277459">
+      <screen x="0" y="0" width="1676" height="913" />
+    </state>
+    <state x="409" y="50" key="new project wizard/0.0.1676.913@0.0.1676.913" timestamp="1605757277459" />
+  </component>
+</project>
