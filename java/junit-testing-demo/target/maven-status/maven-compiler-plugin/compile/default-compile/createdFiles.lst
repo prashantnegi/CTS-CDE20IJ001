@@ -1,0 +1,5 @@
+com\cts\training\Math.class
+com\cts\training\voter\Voter.class
+com\cts\training\MathUtils.class
+com\cts\training\voter\InvalidVoterException.class
+com\cts\training\Application.class

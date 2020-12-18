@@ -1,0 +1,6 @@
+projectKey=code-quality-test-idle
+serverUrl=http://localhost:9000
+serverVersion=7.9.4.35981
+dashboardUrl=http://localhost:9000/dashboard?id=code-quality-test-idle
+ceTaskId=AXYIGe4JH3I0N8k14Trk
+ceTaskUrl=http://localhost:9000/api/ce/task?id=AXYIGe4JH3I0N8k14Trk

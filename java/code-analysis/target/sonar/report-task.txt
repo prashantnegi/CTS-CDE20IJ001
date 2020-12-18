@@ -1,0 +1,7 @@
+organization=easyskillup
+projectKey=sonar-demo1
+serverUrl=https://sonarcloud.io
+serverVersion=8.0.0.14894
+dashboardUrl=https://sonarcloud.io/dashboard?id=sonar-demo1
+ceTaskId=AXYHwhiYURwasWfnvIe-
+ceTaskUrl=https://sonarcloud.io/api/ce/task?id=AXYHwhiYURwasWfnvIe-

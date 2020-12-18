@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml" lang="en"><head><meta http-equiv="Content-Type" content="text/html;charset=UTF-8"/><link rel="stylesheet" href="../jacoco-resources/report.css" type="text/css"/><link rel="shortcut icon" href="../jacoco-resources/report.gif" type="image/gif"/><title>CartDaoCollectionImpl.java</title><link rel="stylesheet" href="../jacoco-resources/prettify.css" type="text/css"/><script type="text/javascript" src="../jacoco-resources/prettify.js"></script></head><body onload="window['PR_TAB_WIDTH']=4;prettyPrint()"><div class="breadcrumb" id="breadcrumb"><span class="info"><a href="../jacoco-sessions.html" class="el_session">Sessions</a></span><a href="../index.html" class="el_report">truyum-spring</a> &gt; <a href="index.source.html" class="el_package">com.cognizant.truyum.dao</a> &gt; <span class="el_source">CartDaoCollectionImpl.java</span></div><h1>CartDaoCollectionImpl.java</h1><pre class="source lang-java linenums">package com.cognizant.truyum.dao;
+
+import java.util.ArrayList;
+import java.util.List;
+import java.util.Map;
+import java.util.Optional;
+import java.util.stream.Collectors;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Component;
+
+import com.cognizant.truyum.model.Cart;
+import com.cognizant.truyum.model.MenuItem;
+
+@Component
+<span class="fc" id="L16">public class CartDaoCollectionImpl implements CartDao {</span>
+	@Autowired
+	private Map&lt;Long, Cart&gt; userCarts;
+	@Autowired
+	private MenuItemDao menuItemDao;
+
+	public  Map&lt;Long, Cart&gt; getUserCarts() {
+<span class="nc" id="L23">		return userCarts;</span>
+	}
+
+	public  void setUserCarts(Map&lt;Long, Cart&gt; userCarts) {
+<span class="nc" id="L27">		this.userCarts = userCarts;</span>
+<span class="nc" id="L28">	}</span>
+
+	
+
+	@Override
+	public void addCartItem(long userId, long menuItemId) {
+<span class="fc" id="L34">		MenuItem menuItem = menuItemDao.getMenuItem(menuItemId);</span>
+		List&lt;MenuItem&gt; menuItemList;
+<span class="fc bfc" id="L36" title="All 2 branches covered.">		if (userCarts.containsKey(userId)) {</span>
+<span class="fc" id="L37">			menuItemList = userCarts.get(userId).getMenuItemList();</span>
+<span class="fc" id="L38">			menuItemList.add(menuItem);</span>
+		} else {
+<span class="fc" id="L40">			menuItemList = new ArrayList&lt;&gt;();</span>
+<span class="fc" id="L41">			Cart cart = new Cart(menuItemList, 0);</span>
+<span class="fc" id="L42">			menuItemList.add(menuItem);</span>
+<span class="fc" id="L43">			userCarts.put(userId, cart);</span>
+		}
+<span class="fc" id="L45">	}</span>
+
+	@Override
+	public List&lt;MenuItem&gt; getAllCartItems(long userId) throws CartEmptyException {
+
+<span class="fc" id="L50">		Cart cart = Optional.ofNullable(userCarts.get(userId)).orElseThrow(CartEmptyException::new);</span>
+<span class="fc" id="L51">		List&lt;MenuItem&gt; menuItemList = cart.getMenuItemList();</span>
+
+<span class="fc" id="L53">		double total = menuItemList.stream().mapToDouble(MenuItem::getPrice).sum();</span>
+<span class="fc" id="L54">		cart.setTotal(total);</span>
+<span class="fc bfc" id="L55" title="All 2 branches covered.">		return Optional.ofNullable(menuItemList).filter(menuItem -&gt; !menuItem.isEmpty())</span>
+<span class="fc" id="L56">				.orElseThrow(CartEmptyException::new);</span>
+	}
+
+	@Override
+	public void removeCartItem(long userId, long menuItemId) {
+<span class="fc" id="L61">		List&lt;MenuItem&gt; menuItemList = userCarts.get(userId).getMenuItemList();</span>
+<span class="fc bfc" id="L62" title="All 2 branches covered.">		MenuItem item = menuItemList.stream().filter(menuItem -&gt; menuItem.getId() == menuItemId)</span>
+<span class="fc" id="L63">				.collect(Collectors.toList()).get(0);</span>
+<span class="fc" id="L64">		menuItemList.remove(item);</span>
+<span class="fc" id="L65">	}</span>
+
+}
+</pre><div class="footer"><span class="right">Created with <a href="http://www.jacoco.org/jacoco">JaCoCo</a> 0.8.6.202009150832</span></div></body></html>

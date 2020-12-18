@@ -1,0 +1,3 @@
+com\bookamovie\ticket\InvalidMovieTicketException.class
+com\bookamovie\ticket\MovieTicket.class
+com\bookamovie\ticket\BookAMovie.class

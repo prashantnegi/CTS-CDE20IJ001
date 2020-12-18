@@ -1,0 +1,13 @@
+
+q	java:S116"WRename this field "INSERT_QUERY" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(é–Ïîüÿÿÿÿ
+H
+java:S1172("-Remove this unused method parameter "rowNum".(¬óÚ°ÿÿÿÿÿ
+F
+java:S1144("+Remove this unused private "mapRow" method.(¬óÚ°ÿÿÿÿÿ
+n	java:S116"YRename this field "FIND_ALL_QUERY" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(æŽá†
+7
+java:S1170"!Make this final field static too.(æŽá†
+<
+java:S1170"!Make this final field static too.(é–Ïîüÿÿÿÿ
+J
+java:S3740$"/Provide the parametrized type for this generic.(Š†Ò¾üÿÿÿÿ

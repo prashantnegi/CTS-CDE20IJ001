@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="27e98ea1-15ed-4727-bae4-5ac24ece7e10" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../code-analysis/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code-analysis/.idea/aws.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code-analysis/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code-analysis/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code-analysis/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code-analysis/.idea/qaplug_profiles.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code-analysis/.idea/sonarIssues.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code-analysis/.idea/sonarSettings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code-analysis/.idea/sonarlint/issuestore/3/d/3da01db98b88a8057c03354880f06dba49d3e795" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code-analysis/.idea/sonarlint/issuestore/4/4/442292b8a7efeabbe4cc176709b833b1792140ec" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code-analysis/.idea/sonarlint/issuestore/5/a/5acbe6c306dee4498a010b1ca2096853e29e16a4" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code-analysis/.idea/sonarlint/issuestore/e/e/ee1a069d43d12273921a81b5bad744fa3b0ad9e7" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code-analysis/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code-analysis/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code-analysis/code-analysis.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code-analysis/src/main/java/com/cts/training/Application.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../junit-testing-demo/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../junit-testing-demo/.idea/aws.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../junit-testing-demo/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../junit-testing-demo/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../junit-testing-demo/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../junit-testing-demo/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../junit-testing-demo/junit-testing-demo.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mockito-demo/dependency-reduced-pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mockito-demo/mockito-demo.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mockito-demo/src/main/java/com/cts/training/Application.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mockito-demo/src/main/java/com/cts/training/dao/StudentDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mockito-demo/src/main/java/com/cts/training/dao/StudentDaoImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mockito-demo/src/main/java/com/cts/training/model/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mockito-demo/src/main/java/com/cts/training/service/StudentService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mockito-demo/src/main/java/com/cts/training/util/DataSourceManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mockito-demo/src/main/resources/database.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mockito-demo/src/test/java/com/cts/training/dao/StudentDaoImplTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mockito-demo/src/test/java/com/cts/training/dao/StudentServiceTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/aws.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mockito-demo2.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/cts/training/Application.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/cts/training/core/AccountOpeningEventPublisher.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/cts/training/core/AccountOpeningService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/cts/training/core/AccountOpeningStatus.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/cts/training/core/AccountRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/cts/training/core/BackgroundCheckResults.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/cts/training/core/BackgroundCheckService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/cts/training/core/ReferenceIdsManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/cts/training/investment/ExternalInvestmentManagementService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/cts/training/investment/InvestmentManagementService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/cts/training/model/Account.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-jdbc-demo/target/classes/logback.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-jdbc-demo2/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-jdbc-demo2/.idea/aws.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-jdbc-demo2/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-jdbc-demo2/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-jdbc-demo2/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-jdbc-demo2/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-jdbc-demo2/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-jdbc-demo2/dependency-reduced-pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-jdbc-demo2/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-jdbc-demo2/spring-jdbc-demo2.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-jdbc-demo2/src/main/java/com/cts/training/AppConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-jdbc-demo2/src/main/java/com/cts/training/Application.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-jdbc-demo2/src/main/java/com/cts/training/dao/StudentDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-jdbc-demo2/src/main/java/com/cts/training/dao/StudentDaoImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-jdbc-demo2/src/main/java/com/cts/training/model/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-jdbc-demo2/src/main/java/com/cts/training/service/StudentService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-jdbc-demo2/src/main/java/com/cts/training/service/StudentServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jdbc-demo2/out/production/jdbc-demo2/com/jdbc/demo/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/../jdbc-demo2/out/production/jdbc-demo2/com/jdbc/demo/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jdbc-demo2/out/production/jdbc-demo2/com/jdbc/demo/dao/api/GenericDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/../jdbc-demo2/out/production/jdbc-demo2/com/jdbc/demo/dao/api/GenericDao.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jdbc-demo2/out/production/jdbc-demo2/com/jdbc/demo/dao/api/TraineeDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/../jdbc-demo2/out/production/jdbc-demo2/com/jdbc/demo/dao/api/TraineeDao.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jdbc-demo2/out/production/jdbc-demo2/com/jdbc/demo/dao/model/Trainee.class" beforeDir="false" afterPath="$PROJECT_DIR$/../jdbc-demo2/out/production/jdbc-demo2/com/jdbc/demo/dao/model/Trainee.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jdbc-demo2/out/production/jdbc-demo2/com/jdbc/demo/dao/util/ConnectionManager.class" beforeDir="false" afterPath="$PROJECT_DIR$/../jdbc-demo2/out/production/jdbc-demo2/com/jdbc/demo/dao/util/ConnectionManager.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-jdbc-demo/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../spring-jdbc-demo/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-jdbc-demo/dependency-reduced-pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../spring-jdbc-demo/dependency-reduced-pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-jdbc-demo/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../spring-jdbc-demo/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-jdbc-demo/src/main/java/com/cts/training/dao/CustomerDaoImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../spring-jdbc-demo/src/main/java/com/cts/training/dao/CustomerDaoImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-jdbc-demo/src/main/resources/logback.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../spring-jdbc-demo/src/main/resources/logback.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Enum" />
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2020.2.3\plugins\maven\lib\maven3" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1klZISwqPaamLEbcHaRuruXslNJ" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.cts.training.system" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="27e98ea1-15ed-4727-bae4-5ac24ece7e10" name="Default Changelist" comment="" />
+      <created>1606277059617</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1606277059617</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="595" y="102" key="#com.intellij.ide.util.MemberChooser" timestamp="1606277827963">
+      <screen x="0" y="0" width="1676" height="913" />
+    </state>
+    <state x="595" y="102" key="#com.intellij.ide.util.MemberChooser/0.0.1676.913@0.0.1676.913" timestamp="1606277827963" />
+  </component>
+</project>

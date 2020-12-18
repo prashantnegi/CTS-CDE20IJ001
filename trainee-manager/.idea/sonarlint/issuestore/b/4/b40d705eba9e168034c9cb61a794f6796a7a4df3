@@ -1,0 +1,9 @@
+
+R
+java:S1068"5Remove this unused "traineeDataSource" private field.(¨¤­ο8Λ‚Ή«ζ.
+£
+java:S1186"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(νερύÿÿÿÿ8ΐΜ±«ζ.
+
+java:S1186"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(ΒÒε8ΐΜ±«ζ.
+H
+java:S1168"+Return an empty collection instead of null.(¥Ήο8Χ²Δ«ζ.

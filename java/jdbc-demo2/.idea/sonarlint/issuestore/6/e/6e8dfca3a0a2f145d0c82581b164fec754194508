@@ -1,0 +1,6 @@
+
+N	java:S106""9Replace this use of System.out or System.err by a logger.(©µη
+£
+java:S1130"Remove the declaration of thrown exception 'com.jdbc.demo.dao.exception.NoTraineeFoundException', as it cannot be thrown from method's body.(Φ‘ ‰
+N	java:S106$"9Replace this use of System.out or System.err by a logger.(άγ¬Ό
+V	java:S125"<This block of commented-out lines of code should be removed.(Ϊδ΄ξωÿÿÿÿ

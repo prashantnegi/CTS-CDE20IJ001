@@ -1,0 +1,7 @@
+
+z
+java:S1488$"dImmediately return this expression instead of assigning it to the temporary variable "jdbcTemplate".(å–É€
+Š
+java:S1488+"tImmediately return this expression instead of assigning it to the temporary variable "dataSourceTransactionManager".(Ë´“ğ
+T
+java:S1117">Rename "dataSource" which hides the field declared at line 21.(ıĞ‚é

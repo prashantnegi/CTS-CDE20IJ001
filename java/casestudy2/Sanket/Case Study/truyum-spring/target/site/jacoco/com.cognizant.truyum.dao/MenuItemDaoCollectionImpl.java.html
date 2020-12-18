@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml" lang="en"><head><meta http-equiv="Content-Type" content="text/html;charset=UTF-8"/><link rel="stylesheet" href="../jacoco-resources/report.css" type="text/css"/><link rel="shortcut icon" href="../jacoco-resources/report.gif" type="image/gif"/><title>MenuItemDaoCollectionImpl.java</title><link rel="stylesheet" href="../jacoco-resources/prettify.css" type="text/css"/><script type="text/javascript" src="../jacoco-resources/prettify.js"></script></head><body onload="window['PR_TAB_WIDTH']=4;prettyPrint()"><div class="breadcrumb" id="breadcrumb"><span class="info"><a href="../jacoco-sessions.html" class="el_session">Sessions</a></span><a href="../index.html" class="el_report">truyum-spring</a> &gt; <a href="index.source.html" class="el_package">com.cognizant.truyum.dao</a> &gt; <span class="el_source">MenuItemDaoCollectionImpl.java</span></div><h1>MenuItemDaoCollectionImpl.java</h1><pre class="source lang-java linenums">package com.cognizant.truyum.dao;
+
+import java.util.Date;
+import java.util.List;
+import java.util.stream.Collectors;
+
+import org.springframework.beans.factory.annotation.Autowired;
+
+import com.cognizant.truyum.model.MenuItem;
+public class MenuItemDaoCollectionImpl implements MenuItemDao {
+
+	private List&lt;MenuItem&gt; menuItemList;
+
+	public List&lt;MenuItem&gt; getMenuItemList() {
+<span class="nc" id="L15">		return this.menuItemList;</span>
+	}
+	@Autowired
+	public MenuItemDaoCollectionImpl(List&lt;MenuItem&gt; menuItemList) {
+<span class="fc" id="L19">		super();</span>
+<span class="fc" id="L20">		this.menuItemList = menuItemList;</span>
+<span class="fc" id="L21">	}</span>
+
+	@Override
+	public List&lt;MenuItem&gt; getMenuItemListAdmin() {
+
+<span class="fc" id="L26">		return menuItemList;</span>
+	}
+
+	@Override
+	public List&lt;MenuItem&gt; getMenuItemListCustomer() {
+<span class="fc" id="L31">		return menuItemList.stream()</span>
+<span class="fc" id="L32">				.filter(menuItem -&gt; menuItem.getDateOfLaunch().before(new Date()))</span>
+<span class="fc" id="L33">				.filter(MenuItem::isActive).collect(Collectors.toList());</span>
+	}
+
+	@Override
+	public void modifyMenuItem(MenuItem menuItem) {
+<span class="fc" id="L38">		menuItemList.stream().filter(m -&gt; m.equals(menuItem))</span>
+<span class="fc" id="L39">				.forEach(m -&gt; menuItemList.set(menuItemList.indexOf(m), menuItem));</span>
+<span class="fc" id="L40">	}</span>
+
+	@Override
+	public MenuItem getMenuItem(long menuItemId) {
+<span class="fc bfc" id="L44" title="All 2 branches covered.">		return menuItemList.stream().filter(m -&gt; m.getId() == menuItemId).collect(Collectors.toList())</span>
+<span class="fc" id="L45">				.get(0);</span>
+	}
+
+}
+</pre><div class="footer"><span class="right">Created with <a href="http://www.jacoco.org/jacoco">JaCoCo</a> 0.8.6.202009150832</span></div></body></html>

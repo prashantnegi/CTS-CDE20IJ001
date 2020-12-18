@@ -15,10 +15,16 @@ public class CustomerDaoImpl implements CustomerDao {
     @Autowired
     private JdbcTemplate jdbcTemplate;
 
-    final String INSERT_QUERY = "INSERT INTO CUSTOMERS (ID, FULL_NAME, EMAIL, LOGIN_PASSWORD, CREATED_DATE) " +
-            "VALUES (?, ?, ?, ?, ?)";
-    final String FIND_ALL = "SELECT * FROM CUSTOMERS";
-    final String FIND_ONE = "SELECT * FROM CUSTOMERS WHERE ID = ?";
+    final String INSERT_QUERY;
+    final String FIND_ALL;
+    final String FIND_ONE;
+
+    {
+        INSERT_QUERY = "INSERT INTO CUSTOMERS (ID, FULL_NAME, EMAIL, LOGIN_PASSWORD, CREATED_DATE) " +
+                "VALUES (?, ?, ?, ?, ?)";
+        FIND_ALL = "SELECT * FROM CUSTOMERS";
+        FIND_ONE = "SELECT * FROM CUSTOMERS WHERE ID = ?";
+    }
 
     @Override
     public int insert(Customer c) {

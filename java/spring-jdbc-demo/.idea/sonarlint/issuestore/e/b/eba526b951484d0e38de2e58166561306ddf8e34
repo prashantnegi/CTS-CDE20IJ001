@@ -1,0 +1,6 @@
+
+l	java:S116"WRename this field "INSERT_QUERY" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÜîÄ‡
+h	java:S116"SRename this field "FIND_ALL" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ËÌÀº
+m	java:S116"SRename this field "FIND_ONE" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.( ìÆ’ûÿÿÿÿ
+t
+java:S1171"YMove the contents of this initializer to a standard constructor or to field initializers.(ÒÌâ–øÿÿÿÿ

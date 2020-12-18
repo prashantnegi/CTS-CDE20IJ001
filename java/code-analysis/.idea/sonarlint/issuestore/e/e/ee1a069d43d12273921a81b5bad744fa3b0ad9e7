@@ -1,0 +1,29 @@
+
+_
+java:S2583#"DChange this condition so that it does not always evaluate to "false"(ß¬³êûÿÿÿÿ
+S	java:S106'"9Replace this use of System.out or System.err by a logger.(˜±‰ïýÿÿÿÿ
+R
+java:S2589 "7Remove this expression which always evaluates to "true"(½¼Š•üÿÿÿÿ
+N	java:S1062"9Replace this use of System.out or System.err by a logger.(½­ÄÃ
+J
+java:S1066#"/Merge this if statement with the enclosing one.(ß¬³êûÿÿÿÿ
+N	java:S106"9Replace this use of System.out or System.err by a logger.(ãôÈç
+N	java:S106$"9Replace this use of System.out or System.err by a logger.(Áëéå
+O
+java:S4973/"9Use the "equals" method if value comparison was intended.(‰±¦ñ
+N	java:S1060"9Replace this use of System.out or System.err by a logger.(—‡çŽ
+_
+java:S2583"DChange this condition so that it does not always evaluate to "false"(è¢ûÈúÿÿÿÿ
+Q	java:S125"<This block of commented-out lines of code should be removed.(Ú°à¬
+S	java:S106."9Replace this use of System.out or System.err by a logger.(Å‘ÎÕÿÿÿÿÿ
+e	java:S117)"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ãò}
+J
+java:S1066""/Merge this if statement with the enclosing one.(Æþïƒøÿÿÿÿ
+O
+java:S4973-"9Use the "equals" method if value comparison was intended.(éïå‰
+h
+java:S3776"RRefactor this method to reduce its Cognitive Complexity from 16 to the 15 allowed.(Çµí‘
+@
+java:S11813"%Catch Exception instead of Throwable.(•”ø¾øÿÿÿÿ
+J
+java:S1066!"/Merge this if statement with the enclosing one.(Ñ½Ñúÿÿÿÿ

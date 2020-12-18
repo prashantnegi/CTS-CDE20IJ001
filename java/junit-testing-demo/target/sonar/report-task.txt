@@ -1,0 +1,6 @@
+projectKey=com.cts.training:junit-testing-demo
+serverUrl=http://localhost:9000
+serverVersion=7.9.4.35981
+dashboardUrl=http://localhost:9000/dashboard?id=com.cts.training%3Ajunit-testing-demo
+ceTaskId=AXYC7DhkEhq1ubz4w9a-
+ceTaskUrl=http://localhost:9000/api/ce/task?id=AXYC7DhkEhq1ubz4w9a-

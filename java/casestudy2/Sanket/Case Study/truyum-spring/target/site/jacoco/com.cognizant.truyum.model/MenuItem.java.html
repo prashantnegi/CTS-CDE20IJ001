@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml" lang="en"><head><meta http-equiv="Content-Type" content="text/html;charset=UTF-8"/><link rel="stylesheet" href="../jacoco-resources/report.css" type="text/css"/><link rel="shortcut icon" href="../jacoco-resources/report.gif" type="image/gif"/><title>MenuItem.java</title><link rel="stylesheet" href="../jacoco-resources/prettify.css" type="text/css"/><script type="text/javascript" src="../jacoco-resources/prettify.js"></script></head><body onload="window['PR_TAB_WIDTH']=4;prettyPrint()"><div class="breadcrumb" id="breadcrumb"><span class="info"><a href="../jacoco-sessions.html" class="el_session">Sessions</a></span><a href="../index.html" class="el_report">truyum-spring</a> &gt; <a href="index.source.html" class="el_package">com.cognizant.truyum.model</a> &gt; <span class="el_source">MenuItem.java</span></div><h1>MenuItem.java</h1><pre class="source lang-java linenums">package com.cognizant.truyum.model;
+
+import java.util.Date;
+
+public class MenuItem {
+	private long id;
+	private String name;
+	private float price;
+	private boolean active;
+	private Date dateOfLaunch;
+	private String category;
+	private boolean freeDelivery;
+	public long getId() {
+<span class="fc" id="L14">		return id;</span>
+	}
+
+	public MenuItem() {
+<span class="fc" id="L18">		super();</span>
+<span class="fc" id="L19">	}</span>
+
+	public void setId(long id) {
+<span class="fc" id="L22">		this.id = id;</span>
+<span class="fc" id="L23">	}</span>
+
+	public String getName() {
+<span class="fc" id="L26">		return name;</span>
+	}
+
+	public void setName(String name) {
+<span class="fc" id="L30">		this.name = name;</span>
+<span class="fc" id="L31">	}</span>
+
+	public float getPrice() {
+<span class="fc" id="L34">		return price;</span>
+	}
+
+	public void setPrice(float price) {
+<span class="fc" id="L38">		this.price = price;</span>
+<span class="fc" id="L39">	}</span>
+
+	public boolean isActive() {
+<span class="fc" id="L42">		return active;</span>
+	}
+
+	public void setActive(boolean active) {
+<span class="fc" id="L46">		this.active = active;</span>
+<span class="fc" id="L47">	}</span>
+
+	public Date getDateOfLaunch() {
+<span class="fc" id="L50">		return dateOfLaunch;</span>
+	}
+
+	public void setDateOfLaunch(Date dateOfLaunch) {
+<span class="fc" id="L54">		this.dateOfLaunch = dateOfLaunch;</span>
+<span class="fc" id="L55">	}</span>
+
+	public String getCategory() {
+<span class="nc" id="L58">		return category;</span>
+	}
+
+	public void setCategory(String category) {
+<span class="fc" id="L62">		this.category = category;</span>
+<span class="fc" id="L63">	}</span>
+
+	public boolean isFreeDelivery() {
+<span class="nc" id="L66">		return freeDelivery;</span>
+	}
+
+	public void setFreeDelivery(boolean freeDelivery) {
+<span class="fc" id="L70">		this.freeDelivery = freeDelivery;</span>
+<span class="fc" id="L71">	}</span>
+
+	public MenuItem(long id, String name, float price, boolean active, Date dateOfLaunch, String category,
+			boolean freeDelivery) {
+<span class="fc" id="L75">		super();</span>
+<span class="fc" id="L76">		this.id = id;</span>
+<span class="fc" id="L77">		this.name = name;</span>
+<span class="fc" id="L78">		this.price = price;</span>
+<span class="fc" id="L79">		this.active = active;</span>
+<span class="fc" id="L80">		this.dateOfLaunch = dateOfLaunch;</span>
+<span class="fc" id="L81">		this.category = category;</span>
+<span class="fc" id="L82">		this.freeDelivery = freeDelivery;</span>
+<span class="fc" id="L83">	}</span>
+
+	@Override
+	public int hashCode() {
+<span class="nc" id="L87">		final int prime = 31;</span>
+<span class="nc" id="L88">		int result = 1;</span>
+<span class="nc" id="L89">		result = prime * result + (int) (id ^ (id &gt;&gt;&gt; 32));</span>
+<span class="nc" id="L90">		return result;</span>
+	}
+
+	@Override
+	public boolean equals(Object obj) {
+<span class="fc bfc" id="L95" title="All 2 branches covered.">		if (this == obj)</span>
+<span class="fc" id="L96">			return true;</span>
+<span class="pc bpc" id="L97" title="1 of 2 branches missed.">		if (obj == null)</span>
+<span class="nc" id="L98">			return false;</span>
+<span class="pc bpc" id="L99" title="1 of 2 branches missed.">		if (getClass() != obj.getClass())</span>
+<span class="nc" id="L100">			return false;</span>
+<span class="fc" id="L101">		MenuItem other = (MenuItem) obj;</span>
+		
+<span class="fc bfc" id="L103" title="All 2 branches covered.">		return id == other.id;</span>
+	}
+
+	@Override
+	public String toString() {
+<span class="nc" id="L108">		return &quot;MenuItem [id=&quot; + id + &quot;, name=&quot; + name + &quot;, price=&quot; + price + &quot;, active=&quot; + active + &quot;, dateOfLaunch=&quot;</span>
+				+ dateOfLaunch + &quot;, category=&quot; + category + &quot;, freeDelivery=&quot; + freeDelivery + &quot;]&quot;;
+	}
+
+}
+</pre><div class="footer"><span class="right">Created with <a href="http://www.jacoco.org/jacoco">JaCoCo</a> 0.8.6.202009150832</span></div></body></html>
