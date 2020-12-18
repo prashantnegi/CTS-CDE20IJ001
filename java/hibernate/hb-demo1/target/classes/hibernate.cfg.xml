@@ -14,6 +14,10 @@
         <property name="format_sql">true</property>
         <property name="current_session_context_class">thread</property>
         <property name="hbm2ddl.auto">update</property>
-        <mapping class="com.cts.training.Trainee" />
+
+<!--        <mapping class="com.cts.training.Trainee" />-->
+        <mapping class="com.cts.training.eih.Insurance" />
+        <mapping class="com.cts.training.eih.VehicleInsurance" />
+        <mapping class="com.cts.training.eih.HealthInsurance" />
     </session-factory>
 </hibernate-configuration>
