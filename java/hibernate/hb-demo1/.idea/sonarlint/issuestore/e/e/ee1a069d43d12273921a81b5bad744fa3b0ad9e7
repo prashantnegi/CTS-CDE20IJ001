@@ -1,0 +1,9 @@
+
+X
+java:S1128";Remove this unused import 'com.cts.training.eih.Insurance'.(ñÂ¶®8ÿˆö©ç.
+R
+java:S1128	"0Remove this unused import 'java.time.LocalDate'.(›‘¬èýÿÿÿÿ8ñ«ô©ç.
+„
+java:S4087%"bRemove this "close" call; closing the resource is handled automatically by the try-with-resources.(ËÇÇÓûÿÿÿÿ8¶¢ƒªç.
+Z
+java:S1128"=Remove this unused import 'org.hibernate.HibernateException'.(™òý²8ñ«ô©ç.

@@ -1,0 +1,5 @@
+
+{
+java:S1450"^Remove the "serviceRegistry" field and declare it as a local variable in the relevant methods.(¤´¾ë8šŸ£ç.
+\
+java:S1118	":Add a private constructor to hide the implicit public one.(‡Œïøşÿÿÿÿ8Êñ‘£ç.

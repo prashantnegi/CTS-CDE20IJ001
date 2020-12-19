@@ -1,0 +1,7 @@
+
+„
+java:S4087"bRemove this "close" call; closing the resource is handled automatically by the try-with-resources.(ËÇÇÓûÿÿÿÿ8Ä›™¨ç.
+„
+java:S4087,"bRemove this "close" call; closing the resource is handled automatically by the try-with-resources.(ËÇÇÓûÿÿÿÿ8³Ð ¨ç.
+„
+java:S4087"bRemove this "close" call; closing the resource is handled automatically by the try-with-resources.(ËÇÇÓûÿÿÿÿ8Àù—¨ç.
