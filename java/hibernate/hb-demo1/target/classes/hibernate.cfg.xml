@@ -16,8 +16,16 @@
         <property name="hbm2ddl.auto">update</property>
 
 <!--        <mapping class="com.cts.training.Trainee" />-->
-        <mapping class="com.cts.training.eih.Insurance" />
-        <mapping class="com.cts.training.eih.VehicleInsurance" />
-        <mapping class="com.cts.training.eih.HealthInsurance" />
+<!--        <mapping class="com.cts.training.eih.Insurance" />-->
+<!--        <mapping class="com.cts.training.eih.VehicleInsurance" />-->
+<!--        <mapping class="com.cts.training.eih.HealthInsurance" />-->
+        <mapping class="com.cts.training.mapping.Item"/>
+        <mapping class="com.cts.training.mapping.Cart"/>
+
+        <mapping class="com.cts.training.mapping.Trainer"/>
+        <mapping class="com.cts.training.mapping.Address"/>
+
+        <mapping class="com.cts.training.mapping.Subscriber"/>
+        <mapping class="com.cts.training.mapping.Subscription"/>
     </session-factory>
 </hibernate-configuration>
