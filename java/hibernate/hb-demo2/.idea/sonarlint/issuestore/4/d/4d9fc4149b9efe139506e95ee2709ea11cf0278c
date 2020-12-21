@@ -1,0 +1,11 @@
+
+V
+java:S1128"9Remove this unused import 'com.cts.training.entity.Book'.(¬ı†¸8Ù‰½Ìç.
+\
+java:S1118":Add a private constructor to hide the implicit public one.(‡Œïøşÿÿÿÿ8²±óËç.
+{
+java:S1450"^Remove the "serviceRegistry" field and declare it as a local variable in the relevant methods.(¤´¾ë8²±óËç.
+
+java:S1488%"bImmediately return this expression instead of assigning it to the temporary variable "violations".(‘á·³8–µ¼Ìç.
+H
+java:S1905"+Remove this unnecessary cast to "Metadata".(Õ¼Ë8…âôËç.
